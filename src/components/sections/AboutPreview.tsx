@@ -47,7 +47,7 @@ export default function AboutPreview() {
               organizations looking to simplify operations, strengthen
               technology and create measurable growth.
             </p>
-            <div className="grid sm:grid-cols-2 gap-3 mt-7 text-xs">
+            <div className="grid sm:grid-cols-2 gap-3 mt-7 ">
               {[
                 "Business Process Outsourcing (BPO)",
                 "Custom Engineered IT Solutions",
@@ -70,7 +70,7 @@ export default function AboutPreview() {
               ))}
             </div>
             <div className="mt-8">
-              <Button to="/about">CONNECT US</Button>
+              <Button to="/about">CONTACT US</Button>
             </div>
           </motion.div>
           <motion.div
@@ -118,7 +118,7 @@ export default function AboutPreview() {
                 <h3 className="font-display font-bold mt-5">
                   {title as string}
                 </h3>
-                <p className="text-xs text-[var(--muted)] leading-6 mt-2">
+                <p className=" text-[var(--muted)] leading-6 mt-2">
                   {desc as string}
                 </p>
               </motion.div>

@@ -46,7 +46,7 @@ export default function Navbar() {
             className="block w-[142px] sm:w-[166px] h-auto max-h-7 object-contain"
           />
         </Link>
-        <nav className="hidden lg:flex items-center gap-7 text-[10px] font-bold tracking-[.14em]">
+        <nav className="hidden lg:flex items-center gap-7 text-[14px] font-bold tracking-[.14em]">
           {navigation.map((n) => (
             <Link
               key={n.to}
