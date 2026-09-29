@@ -493,7 +493,7 @@ export default function Hero({
             <div className="absolute inset-0 group">
   <div className="absolute inset-0 rounded-[34px] overflow-hidden border border-white/10 rotate-[1.5deg] shadow-2xl">
     <img
-      src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1800&q=85"
+      src="/brand/corporate-slider-2.jpg"
       alt="Nextronix Global"
       draggable={false}
       className="image-cover saturate-[.7] contrast-125"

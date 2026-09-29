@@ -77,32 +77,18 @@ export default function AboutPreview() {
             initial={{ opacity: 0, x: 25 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="grid grid-cols-[1.1fr_.9fr] grid-rows-2 gap-3 h-[520px]"
+            className="relative h-[420px] sm:h-[520px] lg:h-[600px]"
           >
-            <div className="row-span-2 rounded-[28px] overflow-hidden">
-              <img
-                className="image-cover"
-                loading="lazy"
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=900&q=85"
-                alt="Technology professional"
-              />
-            </div>
-            <div className="rounded-[28px] overflow-hidden">
-              <img
-                className="image-cover"
-                loading="lazy"
-                src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=700&q=85"
-                alt="Server infrastructure"
-              />
-            </div>
-            <div className="rounded-[28px] overflow-hidden">
-              <img
-                className="image-cover"
-                loading="lazy"
-                src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=700&q=85"
-                alt="Business meeting"
-              />
-            </div>
+            <div className="group relative h-full w-full overflow-hidden rounded-[28px] border border-[var(--line)]">
+                <img
+                  src="/brand/corporate-2-img-1.jpg"
+                  alt="Technology professional"
+                  loading="lazy"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+
+                <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-transparent" />
+              </div>
           </motion.div>
         </div>
         <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-4 mt-20">

@@ -2,7 +2,6 @@ export const navigation = [
   { label: "HOME", to: "/" },
   { label: "ABOUT", to: "/about" },
   { label: "SERVICES", to: "/services" },
-  { label: "WORK", to: "/work" },
   { label: "CONTACT", to: "/contact" },
 ];
 export const services = [
@@ -76,38 +75,23 @@ export const services = [
   },
 
   {
-    name: "Software & Web Applications",
-    slug: "software-web-applications",
-    capabilities: [
-      "Business Applications",
-      "Web Applications",
-      "Custom Software",
-      "API Integration",
-    ],
-    headline: "Digital products built for real-world use.",
-    overview:
-      "Scalable software and web applications designed around usability, performance and maintainability, from business platforms to custom digital products.",
-    benefits: [
-      "User-focused experiences",
-      "Scalable architecture",
-      "Reliable performance",
-      "Maintainable systems",
-    ],
-    process: [
-      "Discovery",
-      "UX & UI",
-      "Development",
-      "QA & launch",
-    ],
-    tools: [
-      "React",
-      "Vite",
-      "JavaScript",
-      "TypeScript",
-      "PHP",
-      "Laravel",
-    ],
-  },
+  slug: "software-web-applications",
+  name: "Software & Web Applications",
+  short:
+    "Scalable software and web applications designed around usability, performance and maintainability, from business platforms to custom digital products.",
+  icon: "Code",
+  color: "#2563eb",
+  capabilities: [
+    "Business Applications",
+    "Web Applications",
+    "Custom Software",
+    "API Integration",
+    "UI/UX Development",
+    "Frontend Development",
+    "Backend Development",
+    "Database Integration",
+  ],
+},
 ];
 export const projects = [
   {

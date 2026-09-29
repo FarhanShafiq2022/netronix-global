@@ -72,7 +72,7 @@ const extras: {
       "Content systems",
     ],
   },
-  seo: {
+  "seo": {
     headline: "Search visibility built on solid foundations.",
     overview:
       "Technical, on-page and off-page SEO programs that organize the fundamentals, uncover opportunities and track meaningful progress.",
@@ -90,6 +90,32 @@ const extras: {
       "Structured data",
     ],
   },
+  "software-web-applications": {
+  headline: "Digital products built for real-world use.",
+  overview:
+    "Scalable software and web applications designed around usability, performance and maintainability, from business platforms to custom digital products.",
+  benefits: [
+    "User-focused experiences",
+    "Scalable architecture",
+    "Reliable performance",
+    "Maintainable systems",
+  ],
+  process: [
+    "Discovery",
+    "UX & UI",
+    "Development",
+    "QA & launch",
+  ],
+  tools: [
+    "React",
+    "Vite",
+    "JavaScript",
+    "TypeScript",
+    "PHP",
+    "Laravel",
+  ],
+},
+
 };
 export default function ServiceDetail() {
   const { slug } = useParams();

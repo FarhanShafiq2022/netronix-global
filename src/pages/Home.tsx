@@ -3,7 +3,7 @@ import Hero from "../components/hero/Hero";
 import Tools from "../components/sections/Tools";
 import AboutPreview from "../components/sections/AboutPreview";
 import ServicesSection from "../components/sections/ServicesSection";
-import WorkShowcase from "../components/sections/WorkShowcase";
+// import WorkShowcase from "../components/sections/WorkShowcase";
 import Process from "../components/sections/Process";
 import Metrics from "../components/sections/Metrics";
 import Testimonials from "../components/sections/Testimonials";
@@ -37,7 +37,7 @@ export default function Home() {
         to: "/services",
       },
       image:
-        "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1800&q=85",
+        "/brand/corporate-slider-1.jpg",
     },
 
     {
@@ -57,7 +57,7 @@ export default function Home() {
         to: "/services",
       },
       image:
-        "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1800&q=85",
+        "/brand/corporate-slider-2.jpg",
     },
 
     {
@@ -81,7 +81,7 @@ export default function Home() {
         to: "/contact",
       },
       image:
-        "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1800&q=85",
+        "/brand/corporate-slider-3.jpg",
     },
   ]}
 />
@@ -89,7 +89,7 @@ export default function Home() {
     
       <AboutPreview />
       <ServicesSection />
-      <WorkShowcase />
+      {/* <WorkShowcase /> */}
       <Process />
       <Metrics />
       <Testimonials />
