@@ -7,34 +7,10 @@ import {
   Linkedin,
   Facebook,
 } from "lucide-react";
-import {
-  siVisa,
-  siMastercard,
-  siPaypal,
-  siAmericanexpress,
-} from "simple-icons";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
 
-const paymentMethods = [
-  {
-    name: "Visa",
-    logo: "https://cdn.simpleicons.org/visa/ffffff",
-  },
-  {
-    name: "Mastercard",
-    logo: "https://cdn.simpleicons.org/mastercard/ffffff",
-  },
-  {
-    name: "PayPal",
-    logo: "https://cdn.simpleicons.org/paypal/ffffff",
-  },
-  {
-    name: "American Express",
-    logo: "https://cdn.simpleicons.org/americanexpress/ffffff",
-  },
-];
 
   return (
     <footer className="dark-section pt-20 pb-6">
@@ -158,39 +134,22 @@ const paymentMethods = [
         <div className="border-t border-white/10 pt-5 flex flex-col sm:flex-row justify-between gap-3 text-[10px] text-slate-600">
           <span>© 2026 Nextronix Global. All Rights Reserved.</span>
          
-         <div className="flex flex-wrap items-center justify-center gap-3">
-  {paymentMethods.map((payment) => (
-    <div
-      key={payment.name}
-      className="
-        flex h-8 min-w-[48px] items-center justify-center
-        rounded-md
-        border border-white/10
-        bg-white/[0.04]
-        px-2
-        transition-all duration-300
-        hover:-translate-y-0.5
-        hover:border-white/20
-        hover:bg-white/[0.08]
-      "
-    >
-      <img
-        src={payment.logo}
-        alt={payment.name}
-        loading="lazy"
-        className="
-          h-5
-          w-auto
-          max-w-[52px]
-          object-contain
-          opacity-70
-          transition-opacity
-          duration-300
-          hover:opacity-100
-        "
-      />
-    </div>
-  ))}
+         <div className="flex items-center justify-center">
+  <img
+    src="/brand/payments.png"
+    alt="Accepted payment methods"
+    loading="lazy"
+    className="
+      h-auto
+      w-full
+      max-w-[420px]
+      object-contain
+      opacity-80
+      transition-opacity
+      duration-300
+      hover:opacity-100
+    "
+  />
 </div>
           <span className="flex gap-4">
             <Link to="/privacy-policy">Privacy Policy</Link>
